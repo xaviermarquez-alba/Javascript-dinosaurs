@@ -150,7 +150,6 @@ const generateTile = (dinos, human) => {
 
     // Add Human in the middle
     tiles.splice(4, 0, human)
-    console.log(tiles)
     tiles.forEach((element) => {
         addTiles(element)
     })
